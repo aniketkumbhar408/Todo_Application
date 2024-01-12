@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Todo Application with React + TypeScript + Material-UI + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo application built using React, TypeScript, and Material-UI. It allows users to create, edit, and delete tasks, as well as mark them as completed.
 
-Currently, two official plugins are available:
+## Table of Contents
+- Prerequisites
+- Getting Started
+- Usage
+- Contributing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Prerequisites
+Before you begin, ensure you have the following installed:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js - Make sure you have Node.js installed on your machine.
+- npm - npm is the package manager for JavaScript. You can check if you have it installed by running `npm -v` in your terminal.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Clone the repository:\
+  git clone https://github.com/aniketkumbhar408/Todo_Application.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Install the project dependencies:\
+  npm install
+
+- Run the development server:\
+  npm run dev
+
+The Todo application should now be running on http://localhost:5173/.
+
+## Dependencies
+
+The major dependencies for this project are:
+
+React: A JavaScript library for building user interfaces.\
+TypeScript: A superset of JavaScript that adds static typing.\
+Material-UI: A React UI framework implementing Google's Material Design.
+
+## Usage
+Open your browser and navigate to http://localhost:5173/.\
+Use the application to add, edit, and delete tasks.\
+Mark tasks as completed or uncompleted by clicking on the checkbox.
+Contributing.
+
+If you'd like to contribute, please fork the repository and create a new branch. Pull requests are welcome!
+
+🚀🚀🚀
